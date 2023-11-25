@@ -18,7 +18,7 @@ const GetLanguages = () => {
          "download" : "تحميل الأن",
          "home" : "الرئيسية",
          "about" : "تعريف",
-         "translated" : "قرأن مترجم",
+         "translated" : "قرآن  مترجم",
          "headerStyle": { direction:"rtl", right: "2%", gap: "4%",  },
          "switchLanguageStyle":{ marginLeft:"auto !important" ,paddingRight:"5%"},
          "linkStyle": { fontSize:"1.3rem"},
@@ -62,7 +62,7 @@ const GetLanguages = () => {
          "download" : "Donwload",
          "home" : "Home",
          "about" : "About",
-         "translated" : "Translated quran",
+         "translated" : "Translated Quran",
          "selectStyles" : {}
  
      }
