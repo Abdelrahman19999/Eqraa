@@ -33,6 +33,8 @@ const Header = ()=>{
         
         if(currentPath==="/")currentPath="";  
 
+          document.getElementById("language").blur();
+
           const value = lang.target.value;        
           navigate(`${currentPath}/${value}`);
           

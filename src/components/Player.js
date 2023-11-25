@@ -77,7 +77,6 @@ const Player = ()=>{
         </a>
         <AudioPlayer className="audioContainer" autoPlay src={server}/>
         </main>
-       
         
     </div>)
 

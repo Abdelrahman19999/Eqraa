@@ -3,7 +3,7 @@
   gap: 7%;
   flex-direction: column;
   position: relative;
-  top: 100px;
+  top:110px;
   width: 70%;
   height: 100vh;
   margin: auto;
@@ -30,7 +30,7 @@
   font-size: 1em;
   letter-spacing: 1px;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: auto;
 }
 
 #videodownload:hover {
