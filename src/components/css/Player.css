@@ -7,7 +7,7 @@ main {
   width: 100%;
   max-width: 1200px; /* Set a max-width for larger screens */
   margin: 20vh auto 0; /* Center the content vertically and set a top margin */
-  height: 110vh;
+  height: 112vh;
 }
 
 .names {
