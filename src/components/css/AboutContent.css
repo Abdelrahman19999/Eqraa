@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 15%;
+    top: 12ch;
     left:1.5%;
     text-align: left;
 }
@@ -48,13 +48,13 @@
     }
     .AboutEN{
 
-        top: 9%;
+        top: 9ch;
         left:2%;
     }
     
     .AboutAR{
     
-        top: 9%;
+        top: 9ch;
         right:2.5%;
         direction: rtl;
     }
@@ -78,13 +78,13 @@
   
     .AboutEN{
 
-        top: 5%;
+        top: 6ch;
         left:2.5%;
     }
     
     .AboutAR{
     
-        top: 5%;
+        top: 6ch;
         right:3%;
         direction: rtl;
     }
