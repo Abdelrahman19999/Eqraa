@@ -161,7 +161,7 @@ form {
 
    .react-select .react-select__control,
    .react-select .react-select__menu {
-     width: 400px;
+     width: 350px;
      max-width: none;
      font-size: 1rem !important;
    }
