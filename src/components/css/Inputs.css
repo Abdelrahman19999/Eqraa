@@ -94,7 +94,6 @@
    top: 12%;
    left: 50%; /* Center horizontally */
    transform: translateX(-50%);
-   height: 100vh;
 }
 
 /* Additional styles for responsiveness */
