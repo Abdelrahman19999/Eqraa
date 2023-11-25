@@ -1,9 +1,9 @@
 .video-container {
   display: flex;
-  gap: 7%;
+  gap: 5ch;
   flex-direction: column;
   position: relative;
-  top:110px;
+  top: 20ch;
   width: 70%;
   height: 100vh;
   margin: auto;
@@ -30,7 +30,6 @@
   font-size: 1em;
   letter-spacing: 1px;
   font-weight: 600;
-  margin-bottom: auto;
 }
 
 #videodownload:hover {
