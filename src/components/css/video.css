@@ -5,7 +5,7 @@
   position: relative;
   top: 20ch;
   width: 70%;
-  height: 100vh;
+  height: 110vh;
   margin: auto;
 }
 
@@ -30,6 +30,7 @@
   font-size: 1em;
   letter-spacing: 1px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 #videodownload:hover {

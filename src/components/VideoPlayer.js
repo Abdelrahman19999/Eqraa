@@ -40,17 +40,22 @@ const VideoPlayer = () => {
       surahID = newObj.suwar.findIndex(x => x.name===surahName)
   };
 
-
-  const apiKey = 'AIzaSyDN_AK49S3zLujtPzqTF3NellkeliqgFSg';
+  const apiKey = 'AIzaSyDiJt-gSZyHC7siNPgwlwvXDYV3sEvNors';
   const folderId = '1VrcJuQpXBkfQMYcLdjJKSixF7U9mpqSf';
   const videoName = threeDigits(++surahID) + '.mp4';  
 
   const Link = DownloadLink(apiKey, folderId, videoName);
+  
+  const downloadFile=()=>{
+
+    window.open(Link, '_blank', 'noreferrer');
+
+  }
 
   return (
     <div className='video-container'>
       <DriveFolder apiKey={apiKey} folderId={folderId} videoName={videoName} />
-      <a id='videodownload' href={Link} download={surahName} target="_blank" rel="noreferrer">
+      <a onClick={downloadFile} id='videodownload' download={surahName} target="_blank" rel="noreferrer">
         {langObj.download}
         </a>
     </div>

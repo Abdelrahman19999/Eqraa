@@ -63,6 +63,23 @@ const Player = ()=>{
     }
 
 
+    const doFetchDownload = () => {
+        fetch(server)
+          .then(resp => resp.blob())
+          .then(blob => {
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.style.display = "none";
+            a.href = url;
+            // the filename you want
+            a.download = reciterName + "_" + surahName + ".mp3";
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(server);
+          })
+          .catch();
+      };
+
     return (
 
     <div className="container">
@@ -72,7 +89,7 @@ const Player = ()=>{
            <h1>{surahName}</h1>
            <h3>{reciterName}</h3>
         </div>
-        <a id="download" href={server} download={reciterName + "_" + surahName} target="_blank" rel="noreferrer">
+        <a onClick={doFetchDownload} id="download" target="_blank" rel="noreferrer">
         {langObj.download}
         </a>
         <AudioPlayer className="audioContainer" autoPlay src={server}/>

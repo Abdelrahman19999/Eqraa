@@ -79,6 +79,7 @@ h3 {
   font-size: 1.2em;
   letter-spacing: 1px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 #download:hover {

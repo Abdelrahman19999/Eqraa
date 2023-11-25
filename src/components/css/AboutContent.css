@@ -48,13 +48,13 @@
     }
     .AboutEN{
 
-        top: 12%;
+        top: 9%;
         left:2%;
     }
     
     .AboutAR{
     
-        top: 12%;
+        top: 9%;
         right:2.5%;
         direction: rtl;
     }
@@ -78,13 +78,13 @@
   
     .AboutEN{
 
-        top: 9%;
+        top: 5%;
         left:2.5%;
     }
     
     .AboutAR{
     
-        top: 9%;
+        top: 5%;
         right:3%;
         direction: rtl;
     }
