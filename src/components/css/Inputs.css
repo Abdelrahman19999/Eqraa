@@ -108,7 +108,7 @@ form {
  /* Media queries for responsiveness */
  @media screen and (max-width: 768px) {
    #name {
-     font-size: 5.8rem;
+     font-size: 5.6rem;
    }
  
    .button-18 {
@@ -146,7 +146,7 @@ form {
  
  @media screen and (max-width: 480px) {
    #name {
-     font-size: 5.3rem;
+     font-size: 5.1rem;
    }
    
    #home {
@@ -161,7 +161,7 @@ form {
 
    .react-select .react-select__control,
    .react-select .react-select__menu {
-     width: 380px;
+     width: 360px;
      max-width: none;
      font-size: 1rem !important;
    }
