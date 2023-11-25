@@ -7,6 +7,7 @@ import getObj from "./LangObj"
 import GetLanguages from "./Languages";
 import DownloadLink from './DownloadLink';
 import "./css/video.css"
+import "./css/video-react.css"
 
 
 
@@ -48,7 +49,6 @@ const VideoPlayer = () => {
 
   return (
     <div className='video-container'>
-     <link rel="stylesheet" href="https://video-react.github.io/assets/video-react.css"/>
       <DriveFolder apiKey={apiKey} folderId={folderId} videoName={videoName} />
       <a id='videodownload' href={Link} download={surahName} target="_blank" rel="noreferrer">
         {langObj.download}
