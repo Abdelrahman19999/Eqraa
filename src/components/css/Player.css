@@ -1,0 +1,109 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4em;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  max-width: 1200px; /* Set a max-width for larger screens */
+  margin: 20vh auto 0; /* Center the content vertically and set a top margin */
+}
+
+.names {
+  text-align: center;
+  font-size: 2.35em;
+  border-radius: 10px;
+  color: rgb(116, 17, 17);
+  opacity: 85%;
+  border: solid 1px rgb(37, 37, 37);
+  width: 90%; /* Adjust width for better responsiveness */
+  max-width: 700px;
+  box-shadow: 1px 1px 20px black;
+}
+
+h3 {
+  color: #040444 !important;
+}
+
+.audioContainer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%; /* Fill the width of the page */
+}
+
+.rhap_container {
+  background: #d3a64c00;
+  border: medium;
+}
+
+.rhap_controls-section {
+  margin-bottom: 5px;
+  height: 30px;
+  color: black !important;
+}
+
+.rhap_main-controls-button svg {
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+}
+
+.rhap_progress-filled,
+.rhap_progress-indicator {
+  background-color: #ffffff !important;
+}
+
+.rhap_button-clear.rhap_volume-button {
+  color: #ffffff !important;
+}
+
+.rhap_volume-bar,
+.rhap_volume-indicator {
+  background-color: rgb(255, 255, 255);
+}
+
+.rhap_time {
+  color: rgb(255, 255, 255) !important;
+  font-weight: 700;
+}
+
+#download {
+  text-align: center;
+  border-radius: 100px !important;
+  background-color: rgb(83, 10, 10) !important;
+  color: rgb(233, 225, 225) !important;
+  padding: 15px;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+#download:hover {
+  background-color: black !important;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .names{
+    font-size: 2em;
+  }
+
+  #download {
+    font-size: medium;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .names{
+    font-size: 1.7em;
+  }
+
+  #download {
+    font-size: small;
+  }
+
+}

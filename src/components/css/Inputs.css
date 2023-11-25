@@ -1,0 +1,197 @@
+ #name{
+   font-size: 5.8rem;
+   color: #0497d1;
+   color: rgb(133, 24, 24) !important;
+   letter-spacing: 6px;
+  }
+ 
+ 
+ .button-18 {
+  position: relative;
+  top: 8px;
+  align-items: center;
+  background-color: rgba(8, 16, 61, 0.925);
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffb936;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 15.5px;
+  font-weight: bold;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 44px;
+  min-width: 30px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  opacity: calc(100%);
+  letter-spacing: 0.5px;
+ }
+ 
+ .button-18:hover,
+ .button-18:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+ }
+ 
+ .button-18:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+ }
+ 
+ .button-18:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+ }
+ 
+
+ /* Default styles for all devices */
+.react-select .react-select__control {
+   width: 590px;
+   height: 44px !important;
+   border: 1;
+   background-color: #fdfaed;
+   border-radius: 100px !important;
+   padding-left: 25px;
+   background-image: url("./searchIcon.svg");
+   background-repeat: no-repeat;
+   background-size: 17px 17px;
+   background-position: 10px;
+}
+
+.react-select .react-select__menu {
+   width: 590px;
+   border: 1;
+   background-color: #f5f4ef;
+   border-radius: 10px;
+}
+
+.react-select {
+   font-size: 1.15rem;
+   text-align: left;
+}
+
+.react-select__container {
+   border-radius: 25px;
+}
+
+#home {
+   width: 100%; /* Use 100% width */
+   max-width: 660px;
+   text-align: center;
+   position: absolute;
+   top: 12%;
+   left: 50%; /* Center horizontally */
+   transform: translateX(-50%);
+}
+
+/* Additional styles for responsiveness */
+@media screen and (max-width: 768px) {
+   .react-select .react-select__control,
+   .react-select .react-select__menu {
+       width: 200%;
+       max-width: 590px; /* Remove maximum width */
+   }
+   #name{
+
+      font-size: 4.5rem;
+   }
+   .button-18{
+
+      font-size: small;
+   }
+}
+
+form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+   bottom: 20px;
+   gap: 40px;
+}
+
+ /* Media queries for responsiveness */
+ @media screen and (max-width: 768px) {
+   #name {
+     font-size: 4rem;
+   }
+ 
+   .button-18 {
+     font-size: 12px;
+     max-width: 100%;
+     padding: 12px;
+     height: 10px !important;
+     border-radius: 100px;
+     line-height: 0px;
+     max-width: 100px;
+     min-height: 30px;
+     top: 0px;
+   }
+ 
+   .react-select .react-select__control,
+   .react-select .react-select__menu {
+     width: 400px;
+     max-width: none;
+     font-size: 1rem !important;
+   }
+
+   .react-select .react-select__control{
+
+      height: 1px !important;
+      
+   }
+
+   #home {
+     top: 14%;
+   }
+ 
+   form {
+     gap: 30px;
+   }
+ }
+ 
+ @media screen and (max-width: 480px) {
+   #name {
+     font-size: 3.5rem;
+   }
+   
+   #home {
+      top: 12%;
+    }
+
+    form{
+
+      bottom: 15px;
+
+    }
+
+   .react-select .react-select__control,
+   .react-select .react-select__menu {
+     width: 320px;
+     max-width: none;
+     font-size: 0.9rem !important;
+   }
+
+   .react-select .react-select__control{
+
+      height: 0px !important;
+      
+   }
+ 
+   .button-18 {
+     font-size: 11px;
+   }
+ }
+ 

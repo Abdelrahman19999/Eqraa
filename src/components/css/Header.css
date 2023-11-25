@@ -1,0 +1,89 @@
+.header {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  gap: 2.5%;
+  width: 100%;
+  top: 5px;
+  padding-left: 20px;
+  z-index: 1000; /* Ensure the header appears above other elements */
+}
+
+a:link,
+a:visited {
+  color: rgb(80, 32, 32);
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 800; /* Use a single font-weight property */
+  letter-spacing: 0.7px;
+}
+
+a:hover {
+  color: rgb(4, 9, 61);
+}
+
+#language{
+  background-color: #4caf4f00;
+  border: none;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  color: rgb(80, 32, 32);
+  font-size: 0.95rem;
+  font-weight: 200;
+  background-image: url("./language.png");
+  background-repeat: no-repeat;
+  background-size: 17px 17px;
+  width: auto;
+  height: auto;
+  appearance: none;
+}
+
+
+
+#language:hover {
+  color: rgba(6, 8, 114, 0.58);
+}
+
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .header {
+    gap: 4%;
+    padding-left: 10px;
+  }
+
+  a:link,
+  a:visited {
+    font-size: 1rem !important;
+  }
+
+  #language{
+
+    font-size: 0.7rem !important;
+    background-size: 12px 12px;
+
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    gap: 5%;
+    padding-left: 5px;
+  }
+
+  a:link,
+  a:visited {
+    font-size: 0.8rem !important;
+  }
+
+  #language{
+
+    font-size: 0.6rem ;
+    background-size: 10px 10px;
+
+  }
+
+}
