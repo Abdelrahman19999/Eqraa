@@ -96,23 +96,6 @@
    transform: translateX(-50%);
 }
 
-/* Additional styles for responsiveness */
-@media screen and (max-width: 768px) {
-   .react-select .react-select__control,
-   .react-select .react-select__menu {
-       width: 200%;
-       max-width: 590px; /* Remove maximum width */
-   }
-   #name{
-
-      font-size: 4.5rem;
-   }
-   .button-18{
-
-      font-size: small;
-   }
-}
-
 form {
    display: flex;
    flex-direction: column;
@@ -125,31 +108,30 @@ form {
  /* Media queries for responsiveness */
  @media screen and (max-width: 768px) {
    #name {
-     font-size: 4rem;
+     font-size: 5.8rem;
    }
  
    .button-18 {
-     font-size: 12px;
+     font-size: 15px;
      max-width: 100%;
-     padding: 12px;
+     padding: 20px;
      height: 10px !important;
      border-radius: 100px;
-     line-height: 0px;
-     max-width: 100px;
+     line-height: 10px;
      min-height: 30px;
      top: 0px;
    }
  
    .react-select .react-select__control,
    .react-select .react-select__menu {
-     width: 400px;
+     width: 500px;
      max-width: none;
-     font-size: 1rem !important;
+     font-size: 1.2rem !important;
    }
 
    .react-select .react-select__control{
 
-      height: 1px !important;
+      height: 44px !important;
       
    }
 
@@ -158,13 +140,13 @@ form {
    }
  
    form {
-     gap: 30px;
+     gap: 40px;
    }
  }
  
  @media screen and (max-width: 480px) {
    #name {
-     font-size: 3.5rem;
+     font-size: 5.3rem;
    }
    
    #home {
@@ -179,19 +161,19 @@ form {
 
    .react-select .react-select__control,
    .react-select .react-select__menu {
-     width: 320px;
+     width: 400px;
      max-width: none;
-     font-size: 0.9rem !important;
+     font-size: 1rem !important;
    }
 
    .react-select .react-select__control{
 
-      height: 0px !important;
+      height:40px !important;
       
    }
  
    .button-18 {
-     font-size: 11px;
+     font-size: 13px;
    }
  }
  
