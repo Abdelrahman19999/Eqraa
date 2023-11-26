@@ -7,7 +7,7 @@ main {
   width: 100%;
   max-width: 1200px; /* Set a max-width for larger screens */
   margin: 20vh auto 0; /* Center the content vertically and set a top margin */
-  height: 140vh;
+  height: 60ch;
 }
 
 .names {
@@ -91,6 +91,7 @@ h3 {
 
   .names{
     font-size: 2em;
+    width: 80%;
   }
 
   #download {
@@ -102,7 +103,8 @@ h3 {
 @media screen and (max-width: 480px) {
 
   .names{
-    font-size: 1.7em;
+    font-size: 1.2em;
+    width: 70%;
   }
 
   #download {
