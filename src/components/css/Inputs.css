@@ -96,23 +96,6 @@
    transform: translateX(-50%);
 }
 
-/* Additional styles for responsiveness */
-@media only screen and (max-width: 768px) {
-   .react-select .react-select__control,
-   .react-select .react-select__menu {
-       width: 200%;
-       max-width: 590px; /* Remove maximum width */
-   }
-   #name{
-
-      font-size: 4.5rem;
-   }
-   .button-18{
-
-      font-size: small;
-   }
-}
-
 form {
    display: flex;
    flex-direction: column;
