@@ -5,7 +5,7 @@
   position: relative;
   top: 20ch;
   width: 70%;
-  height: 110vh;
+  height: 95rch;
   margin: auto;
 }
 
@@ -17,7 +17,9 @@
 }
 
 #videodownload {
+  display: flex;
   position: relative;
+  justify-content: center;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -25,7 +27,7 @@
   border-radius: 100px !important;
   background-color: rgb(83, 10, 10) !important;
   color: rgb(233, 225, 225) !important;
-  width: 90px; /* Set a fixed width */
+  width: 10ch; /* Set a fixed width */
   padding: 1.9ch;
   font-size: 1em;
   letter-spacing: 1px;
@@ -40,15 +42,11 @@
 @media screen and (max-width: 768px) {
   #videodownload {
     font-size: 0.8em !important;
-    width: 60px; /* Adjust the width for smaller screens */
-    height: 15px;
   }
 }
 
 @media screen and (max-width: 480px) {
   #videodownload {
     font-size: 0.6em !important;
-    width: 50px; /* Adjust the width for even smaller screens */
-    height: 10px;
   }
 }
