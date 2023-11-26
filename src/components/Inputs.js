@@ -55,7 +55,7 @@ const Inputs = ()=>{
     
     <h1 id="name">Eqraa</h1>
 
-    <form action="/listen" method="post">
+    <form  styles={{alignItems: "center"}} action="/listen" method="post">
 
       <Select styles={langObj.selectStyles} onChange={handleChange} name="surah" className="react-select" classNamePrefix="react-select" options={langObj.suwar.map((element, index) => (  
           {target:{name:"surah"}, value: index , label: element.name}
