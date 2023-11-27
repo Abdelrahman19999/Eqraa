@@ -20,7 +20,6 @@ main {
   width: 90%; /* Adjust width for better responsiveness */
   max-width: 700px;
   box-shadow: 1px 1px 20px black;
-
 }
 
 h3 {
@@ -105,8 +104,8 @@ h3 {
 @media screen and (max-width: 480px),screen and (max-height: 300px) {
 
   .names{
-    font-size: 1.2em;
-    max-width: 400px;
+    font-size: 1.7em;
+    max-width: 370px;
     width: 90%;
     margin-top: 2.5ch;
   }
