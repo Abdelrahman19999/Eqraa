@@ -101,11 +101,11 @@ h3 {
 
 }
 
-@media screen and (max-width: 480px),screen and (max-height: 300px) {
+@media screen and (max-width: 480px),screen and (max-height: 320px) {
 
   .names{
     font-size: 1.7em;
-    max-width: 370px;
+    max-width: auto;
     width: 90%;
     margin-top: 2.5ch;
   }
