@@ -87,11 +87,13 @@ h3 {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px),screen and (max-height: 600px) {
 
   .names{
     font-size: 2em;
-    width: 80%;
+    max-width: 700px;
+    width: 90%;
+    margin-top: 2.5ch;
   }
 
   #download {
@@ -100,15 +102,17 @@ h3 {
 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px),screen and (max-height: 300px) {
 
   .names{
     font-size: 1.2em;
-    width: 77%;
+    max-width: 400px;
+    width: 90%;
+    margin-top: 2.5ch;
   }
 
   #download {
-    font-size: small;
+    font-size: 0.7em;
   }
 
 }
