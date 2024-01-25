@@ -17,6 +17,7 @@ const App = ()=> {
         <Route path='/listen/:reciter/:surah/:language?' element={<Listen />} />
         <Route path='/translate/:language?' element={<Translate />} />
         <Route path='/listenTranslated/:surah/:language?' element={<ListenTranslated />} />
+        <Route path="/visitors19997" element={<div style={{position:"relative" , top:"15vh" , left:"50%"}}><a href="https://www.flagcounter.me/details/eqC"><img src="https://www.flagcounter.me/eqC/" alt="Flag Counter" /></a></div>}/>
     </Routes>
 </Router>);
   
