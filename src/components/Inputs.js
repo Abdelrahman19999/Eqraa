@@ -35,7 +35,6 @@ const Inputs = ()=>{
     let props = state;
     let navigate = useNavigate(); 
     var handleClick = (state) => {
-      fetch('https://api.example.com/data')
       let path = `/Listen/${props.reciter.name}/${props.surah.name}/${langObj.lang}`; 
       if(props.surah.name.length!=0 && props.reciter.name.length!=0)navigate(path,{
 
