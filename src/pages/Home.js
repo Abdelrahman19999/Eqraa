@@ -2,7 +2,7 @@ import Inputs from "../components/Inputs"
 import Header from "../components/Header"
 
 const Home = ()=>{
-
+console.log("newwwwwww enterrrrrrrr")
     return (
 
         <div>
